@@ -71,7 +71,10 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
 /* Basic */
 
 	html {
@@ -2504,14 +2507,27 @@ input, select, textarea {
 				margin: 0 0 0.5em 0;
 			}
 
+			#banner .bio {
+				display: flex;
+				justify-content: space-between;
+				padding: 50px;
+			}
+
+			#banner .bio img {
+				margin-left: 10%;
+			}
+
 			#banner .content p {
 				display: block;
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
-				text-transform: uppercase;
+				/* text-transform: uppercase; */
 				color: #575d59;
 				font-size: 1.35em;
 				margin: 0 0 1.25em 0;
+				width:55%;
+				margin-right: 10%;
+				margin-top: 2%
 			}
 
 			#banner .content .button {
