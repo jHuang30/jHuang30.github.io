@@ -2838,7 +2838,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("https://github.com/jHuang30/jHuang30.github.io/blob/master/images/111.jpg?raw=true"), url("../../images/header.jpg");
+			background-image: url("https://raw.githubusercontent.com/jHuang30/jHuang30.github.io/master/images/111.jpg"), url("../../images/header.jpg");
 			background-size: cover,							cover;
 		}
 
